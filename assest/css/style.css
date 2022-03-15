@@ -1,0 +1,343 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: whitesmoke;
+}
+/* top-container */
+.top-container{
+  background-image: url(../image/fatty-corgi-1QsQRkxnU6I-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  height: 100vh;
+  /* transition: 0.4s; */
+}
+/* header//////// */
+.header{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: space-between;
+  align-items: center;
+  /* border-bottom: 1px solid gray; */
+  box-shadow: 2px 2px 5px lightgrey;
+  padding: 20px;
+}
+.logo{
+   border-right: 1px solid lightgrey;
+}
+.logo h1{
+  font-size: larger;
+   font-weight:  bolder;
+   text-transform: uppercase;
+   color: goldenrod;
+   text-shadow: 2px 3px 2px rgba(176, 176, 219, 0.911);
+}
+/* navbar/////////// */
+/* Style the navigation bar */
+.navbar {
+  width: 100%;
+  padding-left: 30px;
+  overflow: auto;
+}
+
+/* Navbar links */
+.navbar a {
+  float: left;
+  text-align: center;
+  padding: 12px;
+  color: blue;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Navbar links on mouse-over */
+.navbar a:hover {
+  background-color: rgba(0, 0, 0, 0.05);
+  border-radius: 10px;
+}
+
+/* Current/active navbar link */
+.active {
+  background-color: rgba(238, 185, 50, 0.836);
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
+}
+.h2{
+ text-align: center;
+ padding-top: 100px;
+  font-size: 30px;
+  text-transform: uppercase;
+  color:blue;
+}
+/* container */
+.container{
+  padding: 30px;
+}
+.row{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.col{
+  padding: 20px;
+}
+.col img{
+  width: 100%;
+}
+.col h3{
+  font-size: 50px;
+  color: goldenrod;
+  padding: 10%;
+  text-align: center;
+border-right: 1px solid goldenrod;
+}
+/* middle c0ntainer */
+.middle-container{
+  background: url(../image/pen.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+.grid-mid-container{
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  column-gap: 30px;
+  padding: 30px;
+}
+.mid-col{
+  background: rgba(0, 0, 0, 0.15);
+  padding: 20px;
+  border-radius: 20px;
+  text-align: center;
+  color: white;
+    font-size: 20px;
+}
+.mid-col h3{
+  color: goldenrod;
+  font-size: 40px;
+  margin: 30px 0;
+}
+.mid-col img{
+  width: 200px;
+  height: 200px;
+  margin-bottom: 30px;
+  border-radius: 50%;
+}
+.mid-col-1{
+  text-align: center;
+   color: white;
+   font-size: 20px;
+  background: rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  border-radius: 20px;
+}
+.mid-col-1 img{
+  width: 200px;
+  height: 200px;
+  margin-bottom: 30px;
+  border-radius: 50%;
+}
+.mid-col-1 h3{
+   color: goldenrod;
+  font-size: 40px;
+  margin: 30px 0;
+}
+.services p{
+  text-align: center;
+  font-size: 40px;
+  color: goldenrod;
+  text-transform: capitalize;
+  text-decoration: underline;
+
+}
+.services span{
+  color: blue;
+  text-decoration: underline;
+}
+/* middle layer demos */
+.demos{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+  text-align: center;
+  background-color: whitesmoke;
+  padding: 40px;
+}
+.demo-1{
+ list-style: none;
+  text-decoration: none;
+ font-size: 30px;
+line-height: 40px;
+}
+.demo-2{
+  list-style: none;
+   text-decoration: none;
+  font-size: 30px;
+ line-height: 40px;
+ }
+.demo-1 h3{
+  color: goldenrod;
+  text-transform: uppercase;
+ font-size: 30px;
+ margin: 20px 0;
+}
+.demo-2 h3{
+  color: goldenrod;
+  text-transform: uppercase;
+ font-size: 30px;
+ margin: 20px 0;
+}
+/* middle tow container */
+.middle-two{
+  background: url(../image/mic-2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  min-height: 100vh;
+}
+.flex-colom{
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  column-gap: 30px;
+  padding: 30px;
+background: rgba(0, 0, 0, 0.2);
+min-height: 100vh;
+
+}
+.flex{
+  text-align: center;
+background: rgba(0, 0, 0, 0.1);
+border-radius: 20px;
+box-shadow: 3px 3px 4px rgba(248, 241, 241, 0.795);
+}
+.flex h2{
+  color: goldenrod;
+  text-transform: uppercase;
+  margin: 20px 0;
+  font-weight: bolder;
+  font-size: 25px;
+
+}
+.flex p{
+  color: white;
+  font-size: 20px;
+}
+.flex img{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+/* footer/////////// */
+.footer{
+  background: url(../image/gold.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 30px;
+}
+.footer img{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  box-shadow: 3px 3px 4px whitesmoke;
+}
+/* Add responsiveness - will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels */
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;  
+    display: block;
+  }
+}
+@media only screen and (max-width: 900px) {
+.header{
+  display: block;
+}
+.logo{
+  text-align: center;
+  background: rgba(0, 0, 0, 0.05);
+  padding: 10px 10px;
+}
+.navbar{
+  padding: 0;
+}
+.row{
+  display: block;
+  margin-bottom: 40px;
+  padding: 10px;
+  background: whitesmoke;
+}
+.col{
+  background: rgba(251, 250, 250, 0.897);
+}
+.col h3{
+  font-size: medium;
+  border-bottom: 1px solid goldenrod;
+}
+.h2{
+  font-size: medium;
+  margin: 0;
+  display: none;
+}
+.grid-mid-container{
+  display: block;
+  width: 100%;
+  padding: 20px;
+}
+.mid-col{
+  margin-bottom: 40px;  
+  animation: none;
+}
+.mid-col-1{
+  margin-bottom: 40px;
+  animation: none;
+}
+.demos{
+  display: block;
+  padding: 30px;
+}
+.demo-1{
+margin-bottom: 30px;
+font-size: 20px;
+border-bottom: 1px solid goldenrod;
+}
+
+.demo-2{
+margin-bottom: 30px;
+border-bottom: 1px solid goldenrod;
+
+  font-size: 20px;
+
+}
+.flex-colom{
+  display: block;
+  padding: 20px;
+}
+.flex{
+ margin: 40px 0;
+}
+.footer img{
+  width: 40px;
+  height: 40px;
+
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
